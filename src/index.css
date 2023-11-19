@@ -1,4 +1,9 @@
-.App {
+body {
+  margin: 0;
+}
+
+/* Movies.jsx */
+.movie-app {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -35,6 +40,48 @@
 }
 
 .movie-info span {
+  margin-left: 3px;
+  font-size: 11px;
+}
+
+/* TV.jsx */
+.tv-app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.tv-container {
+  position: relative;
+  width: 190px;
+  margin: 10px;
+  background-color: #373b69;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+.tv-poster{
+  max-width: 100%;
+}
+
+.tv-info {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.tv-info h4 {
+  margin: 0;
+  font-size: 11px;
+}
+
+.tv-info span {
   margin-left: 3px;
   font-size: 11px;
 }
